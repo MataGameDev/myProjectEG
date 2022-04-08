@@ -6,9 +6,9 @@ export default StyleSheet.create({
       flexDirection: 'row',
       justifyContent: 'space-around',
       alignItems: 'center',
-      backgroundColor: 'lightblue',
+      backgroundColor: 'ghostwhite',
       ...Platform.select({
-          ios: {paddingTop: 42},
+          ios: {paddingTop: 32},
           android: {paddingTop: StatusBar.currentHeight}
       })
     },
@@ -22,7 +22,7 @@ export default StyleSheet.create({
         borderBottomWidth: 1,
         backgroundColor: 'lightgray',
     },
-    
+
     boxText: {
         color:"darkslategray",
         fontWeight : "bold",

@@ -5,14 +5,13 @@ import styles from '../styles';
 
 const Box=({children}) =>{
     return (
-        <View style={styles.box}>
+      <View style={styles.box}>
             <Text style={styles.boxText}>{children}</Text>
         </View>
     );
 }
-
 Box.propTypes = {
-    children: PropTypes.node.isRequired
+   children: PropTypes.node.isRequired
 };
 
 export default Box;
